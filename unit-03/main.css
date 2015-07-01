@@ -1,0 +1,37 @@
+body {
+	font-family: "myriad pro", sans-serif;
+	color: #fff;
+	background-image: url("images/waterside.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color: #ffff33;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 72px;
+	text-shadow: -2px 2px rgba(0,0,0,0.5);
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+	text-decoration: none;
+	color: #ffff33;
+}
+
+.copy {
+	padding: 20px;
+	margin: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
