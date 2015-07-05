@@ -1,12 +1,10 @@
 body {
 	font-family: "myriad pro", sans-serif;
-	color: #fff;
-	background-image: url("images/waterside.jpg");
-	background-size: cover;
+	color: #000;
 }
 
 h1 {
-	color: #ffff33;
+	color: #00AA00;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 72px;
@@ -28,15 +26,14 @@ h1 {
 
 .mail {
 	text-decoration: none;
-	color: #ffff33;
+	color: #00AA00;
 }
 
 .copy {
 	padding: 20px;
 	margin: 20px;
-	background-color: rgba(0,0,0,0.5);
 }
 
 #wordwise {
-	background-color: rgba(0,0,0,0.2);
+
 }
