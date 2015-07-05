@@ -1,18 +1,20 @@
 body {
-	font-family: "myriad pro", sans-serif;
+	font-family: "minion pro", palatino, serif;
 	color: #000;
 }
 
 h1 {
-	color: #00AA00;
+	font-family: futura, sans-serif;
+	color: #AA0000;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 72px;
-	text-shadow: -1px 1px rgba(0,0,0,0.5);
+	/*text-shadow: -1px 1px rgba(0,0,0,0.5);*/
 	vertical-align: center;
 }
 
 #slogan {
+	font-family: futura, sans-serif;
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
@@ -25,15 +27,18 @@ h1 {
 }
 
 .mail {
+	font-weight: bold;
 	text-decoration: none;
-	color: #00AA00;
+	color: #AA0000;
 }
 
 .copy {
 	padding: 20px;
 	margin: 20px;
+	font-size: 120%;
 }
 
-#wordwise {
-
+#list {
+	font-family: futura, sans-serif;
+	font-size: 100%;
 }
