@@ -1,0 +1,46 @@
+body {
+	font-family: "minion pro", palatino, serif;
+	color: #000;
+}
+
+h1 {
+	font-family: "titillium web", sans-serif;
+	color: #AA0000;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 72px;
+	font-weight: 700;
+	/*text-shadow: -1px 1px rgba(0,0,0,0.5);*/
+	vertical-align: center;
+}
+
+#slogan {
+	font-family: futura, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+	font-weight: bold;
+	text-decoration: none;
+	color: #AA0000;
+}
+
+.copy {
+	padding: 20px;
+	margin: 20px;
+	font-size: 120%;
+}
+
+#list {
+	font-family: futura, sans-serif;
+	font-size: 100%;
+}

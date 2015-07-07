@@ -9,6 +9,7 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 72px;
+	font-weight: 700;
 	/*text-shadow: -1px 1px rgba(0,0,0,0.5);*/
 	vertical-align: center;
 }
@@ -16,7 +17,7 @@ h1 {
 #slogan {
 	font-family: futura, sans-serif;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 600;
 	text-align: center;
 }
 
