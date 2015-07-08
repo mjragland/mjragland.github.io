@@ -20,6 +20,7 @@ h2 {
 }
 
 .black-background {
+	clear: left;
 	padding: 20px;
 	background-color: black;
 	color: #fff;
@@ -58,6 +59,7 @@ h2 {
 	margin: 20px;
 	width: 300px;
 	float: left;
+	background-color: #f5f5f5;
 }
 
 
