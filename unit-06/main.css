@@ -17,7 +17,7 @@ img {
 	margin: 10px;
 }
 
-figure {
+nav figure {
 	float: left;
 }
 
@@ -30,8 +30,10 @@ footer {
 	clear: both;
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
-	padding: 10px;
-	margin: 10px;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+	/* Why does the background color not extend to edges of the screen? */
+	background-color: #eee;
 }
 
 a {
@@ -60,6 +62,11 @@ a {
 	padding: 20px;
 	margin: 0 auto 40px auto;
 /* margin is not helping to separate divs */
+}
+
+#top {
+	background-color: #eee;
+	/* This is not working */
 }
 
 #wordmark {
