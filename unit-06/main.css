@@ -1,12 +1,14 @@
+* {
+	margin: 0;
+}
+
+
 h2 {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
+	margin: 20px;
 }
 
-.blog figure {
-	clear: both;
-}
-/* How do I clear floats for figures that belong to .blog without making a new css? */
 
 ul {
 	list-style-type: none;
@@ -19,7 +21,7 @@ li {
 
 
 img {
-	margin: 10px;
+	margin: 15px;
 }
 
 figure {
@@ -29,15 +31,14 @@ figure {
 figcaption {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
+	margin-bottom: 20px;
 }
 
 footer {
 	clear: both;
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
-	padding: 10px 0 10px 0;
-	margin: 10px 0 10px 0;
-/* Why does the background color not extend to edges of the screen? */
+	padding: 30px 0 15px 0;
 	background-color: #eee;
 }
 
@@ -53,30 +54,52 @@ a {
     padding: 20px;
 }
 
+.text p {
+	margin-bottom: 60px;
+}
+
 .row {
 	display: block;
 	clear:both;
+	margin: 0 auto 40px auto;
 }
 
 .wrapper {
 	clear: both;
-	width: 90%;
+	width: 800px;
 	padding: 20px;
-	margin: auto;
+	margin: 0 auto 60px auto;
+/* neither the margins nor padding are working here */
 }
 
 .blog {
 	clear: both;
 	width: 50%;
 	padding: 20px;
-	margin: 0 auto 40px auto;
-/* margin is not helping to separate divs */
+	margin: 0 auto;
 }
 
-.top {
-	background-color: #eee;
-/* This is not working, background remains white */
+.blog div {
+	margin: 0 auto 20px auto;
 }
+
+
+.entry {
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+
+.text {
+	margin: 0 auto 60px auto;
+}
+/* This is not working */
+
+.top {
+	height: 120px;
+	background-color: #eeeeee;
+}
+
 
 #wordmark {
 	float: left;
@@ -85,3 +108,5 @@ a {
 a:hover {
 	color: #cc0000;
 }
+
+
