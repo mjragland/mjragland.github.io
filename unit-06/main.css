@@ -3,6 +3,11 @@ h2 {
 	font-family: "Roboto", sans-serif;
 }
 
+.blog figure {
+	clear: both;
+}
+/* How do I clear floats for figures that belong to .blog without making a new css? */
+
 ul {
 	list-style-type: none;
 	font-family: "Open Sans", sans-serif;
@@ -17,7 +22,7 @@ img {
 	margin: 10px;
 }
 
-nav figure {
+figure {
 	float: left;
 }
 
@@ -32,8 +37,12 @@ footer {
 	text-align: center;
 	padding: 10px 0 10px 0;
 	margin: 10px 0 10px 0;
-	/* Why does the background color not extend to edges of the screen? */
+/* Why does the background color not extend to edges of the screen? */
 	background-color: #eee;
+}
+
+footer a {
+	width: auto;
 }
 
 a {
@@ -64,9 +73,9 @@ a {
 /* margin is not helping to separate divs */
 }
 
-#top {
+.top {
 	background-color: #eee;
-	/* This is not working */
+/* This is not working, background remains white */
 }
 
 #wordmark {
