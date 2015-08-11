@@ -4,6 +4,10 @@
 	margin:0;
 }
 
+header {
+	float: left;
+}
+
 
 h2 {
 	text-align: center;
@@ -19,6 +23,7 @@ ul {
 
 li {
 	float: right;
+	padding: 20px 0;
 }
 
 
@@ -49,7 +54,6 @@ footer a {
 }
 
 a {
-    display: block;
     width: 60px;
     text-decoration: none;
     color: #000;
@@ -57,12 +61,12 @@ a {
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-font-size: 0;
-content: "#";
-clear: both;
-height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "#";
+	clear: both;
+	height: 0;
 }
 
 .text p {
@@ -79,7 +83,6 @@ height: 0;
 	width: 700px;
 	padding: 20px;
 	margin: 0 auto 60px auto;
-/* neither the margins nor padding are working here */
 }
 
 .blog {
@@ -103,17 +106,12 @@ height: 0;
 .text {
 	margin: 0 auto 60px auto;
 }
-/* This is not working */
 
-.top {
-	height: 120px;
+#top {
 	background-color: #eeeeee;
+	
 }
 
-
-#wordmark {
-	float: left;
-}
 
 a:hover {
 	color: #cc0000;
