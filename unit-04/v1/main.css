@@ -35,6 +35,7 @@ p {
 	padding: 5px;
 }
 
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -85,8 +86,6 @@ p {
 	color: #AA0000;
 	text-align: center;
 	padding: 20px;
-	display: block;
-	clear: both;
 }
 
 .copy {
@@ -102,6 +101,7 @@ p {
 	width: 90%;
 	margin: auto;
 }
+/* Why does this wrapper not center the columns? */
 
 #list {
 	font-family: "roboto slab", serif;
