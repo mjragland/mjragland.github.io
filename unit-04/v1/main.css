@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	font-family: "roboto slab", serif;
 	background-color: #f5f5f5;
@@ -14,10 +20,7 @@ h1 {
 	font-weight: 700;
 	vertical-align: center;
 	margin: 0 auto 0;
-	padding: 0;
-	
-	/*Why is there still apparent padding between the object and the border? a: line height*/
-
+	padding: 20px;
 }
 
 h2 {
@@ -29,13 +32,22 @@ h2 {
 
 p {
 	font-family: "roboto slab", sans-serif;
+	padding: 5px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
 .white-background {
 	width: 100%;
 	clear: both;
-	padding: 20px;
 	background-color: #fff;
 	color: #000;
 	text-align: center;
@@ -43,7 +55,8 @@ p {
 
 .black-background {
 	clear: both;
-	padding: 20px;
+	padding: 40px;
+	margin: 20px 0;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
@@ -56,6 +69,7 @@ p {
 	text-align: center;
 	color: #aa0000;
 	font-size: 140%;
+	margin-bottom: 10px;
 }
 
 .centered {
@@ -67,7 +81,12 @@ p {
 .mail {
 	font-weight: 700;
 	text-decoration: none;
+	font-size: 140%;
 	color: #AA0000;
+	text-align: center;
+	padding: 20px;
+	display: block;
+	clear: both;
 }
 
 .copy {
@@ -76,7 +95,7 @@ p {
 	width: 25%;
 	float: left;
 	background-color: #ffffff;
-	height: 400px;
+	height: 420px;
 }
 
 .wrapper {
@@ -87,4 +106,5 @@ p {
 #list {
 	font-family: "roboto slab", serif;
 	font-weight: 600;
+	padding: 20px;
 }
