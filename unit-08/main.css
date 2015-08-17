@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "roboto slab", serif;
+	background-color: #f5f5f5;
+	color: #000;
+	margin: 0;
+}
+
+h1 {
+	font-family: "roboto condensed", sans-serif;
+	color: #AA0000;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 6em;
+	font-weight: 700;
+	vertical-align: center;
+	margin: 0 auto 0;
+	padding: 20px;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+	font-size: 60px;
+	color: #fff;
+}
+
+
+p {
+	font-family: "roboto slab", sans-serif;
+	padding: 5px;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.white-background {
+	width: 100%;
+	clear: both;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+}
+
+.black-background {
+	clear: both;
+	padding: 40px;
+	margin: 20px 0;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.subhead {
+	font-family: "roboto condensed", sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+	color: #aa0000;
+	font-size: 140%;
+	margin-bottom: 10px;
+}
+
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 140%;
+	color: #AA0000;
+	text-align: center;
+	padding: 20px;
+}
+
+.copy {
+	padding: 20px;
+	margin: 20px;
+	width: 25%;
+	float: left;
+	background-color: #ffffff;
+	height: 420px;
+}
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+/* Why does this wrapper not center the columns? */
+
+#list {
+	font-family: "roboto slab", serif;
+	font-weight: 600;
+	padding: 20px;
+}
