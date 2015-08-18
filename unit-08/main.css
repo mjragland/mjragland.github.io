@@ -6,7 +6,7 @@
 
 body {
 	font-family: "roboto slab", serif;
-	background-color: #f5f5f5;
+	background-color: #f0f0f0;
 	color: #000;
 	margin: 0;
 }
@@ -32,7 +32,12 @@ h2 {
 
 p {
 	font-family: "roboto slab", sans-serif;
-	padding: 5px;
+	padding: 1em;
+	line-height: 1.618em;
+}
+
+a:hover {
+    color: #aa0000;
 }
 
 
@@ -54,23 +59,28 @@ p {
 	text-align: center;
 }
 
-.black-background {
+/* .black-background {
 	clear: both;
 	padding: 40px;
 	margin: 20px 0;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
-}
+} */
 
 .subhead {
 	font-family: "roboto condensed", sans-serif;
-	font-style: italic;
+	font-style: none;
 	font-weight: 600;
 	text-align: center;
 	color: #aa0000;
-	font-size: 140%;
-	margin-bottom: 10px;
+	font-size: 1.4em;
+	margin-top: 3.5em;
+}
+
+.lowmargin {
+	margin-top: 2em;
+	margin-bottom: .8em;
 }
 
 .centered {
@@ -79,32 +89,53 @@ p {
     margin-right: auto;
 }
 
-.mail {
-	font-weight: 700;
-	text-decoration: none;
-	font-size: 140%;
-	color: #AA0000;
-	text-align: center;
-	padding: 20px;
+.button {
+	background-color: #fff;
+	height: 80px;
+	width: 20em;
+	margin: 1em auto .5em;
 }
 
 .copy {
-	padding: 20px;
-	margin: 20px;
-	width: 25%;
+	height: 27em;
+	padding: .5em;
+	margin: .5em;
 	float: left;
 	background-color: #ffffff;
-	height: 420px;
 }
 
 .wrapper {
-	width: 90%;
-	margin: auto;
+	width: 50%;
+	float: left;
 }
-/* Why does this wrapper not center the columns? */
+
+
+.box {
+	height: 13em;
+	width: 45%;
+	float: left;
+	background-color: #fff;
+	margin: .5em;
+	padding: .5em;
+}
 
 #list {
 	font-family: "roboto slab", serif;
 	font-weight: 600;
 	padding: 20px;
 }
+
+#mail {
+	text-align: center;
+	padding-top: 1em;
+}
+
+
+#mail a {
+	text-decoration: none;
+	color: blue;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+/* This is not working, no change in color on hover */
