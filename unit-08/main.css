@@ -36,9 +36,17 @@ p {
 	line-height: 1.618em;
 }
 
+img {
+	max-width: 600px;
+	/* width: 100%; */
+	height: auto;
+}
+
 a:hover {
     color: #aa0000;
 }
+
+/* This is not working, no change in color on hover */
 
 
 .clearfix:after {
@@ -58,15 +66,6 @@ a:hover {
 	color: #000;
 	text-align: center;
 }
-
-/* .black-background {
-	clear: both;
-	padding: 40px;
-	margin: 20px 0;
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-} */
 
 .subhead {
 	font-family: "roboto condensed", sans-serif;
@@ -138,4 +137,42 @@ a:hover {
 	font-weight: 700;
 }
 
-/* This is not working, no change in color on hover */
+@media only screen and (max-width: 840px) {
+
+	.box {
+		height: 7em;
+		width: auto;
+		float: none;
+	}
+
+	.subhead {
+		margin-top: 1.5em;
+	}
+
+	.copy {
+		height: 29.5em;
+	}
+
+}
+
+@media only screen and (max-width: 740px) {
+
+	img {
+		max-width: 380px;
+	}
+
+@media only screen and (max-width: 605px) {
+
+	.wrapper {
+		clear: both;
+		float: none;
+		width: auto;
+	}
+}	
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 4em;
+	}	
+
+}

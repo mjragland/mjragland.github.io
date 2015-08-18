@@ -40,6 +40,8 @@ a:hover {
     color: #aa0000;
 }
 
+/* This is not working, no change in color on hover */
+
 
 .clearfix:after {
     visibility: hidden;
@@ -58,15 +60,6 @@ a:hover {
 	color: #000;
 	text-align: center;
 }
-
-/* .black-background {
-	clear: both;
-	padding: 40px;
-	margin: 20px 0;
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-} */
 
 .subhead {
 	font-family: "roboto condensed", sans-serif;
@@ -138,4 +131,13 @@ a:hover {
 	font-weight: 700;
 }
 
-/* This is not working, no change in color on hover */
+@media only screen and (max-device-width: 840px) {
+
+body {
+background-color: #ccc;
+}
+
+.box {
+	float: none;
+	width: auto;
+}
