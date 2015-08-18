@@ -23,13 +23,6 @@ h1 {
 	padding: 20px;
 }
 
-h2 {
-	font-family: helvetica, sans-serif;
-	font-size: 60px;
-	color: #fff;
-}
-
-
 p {
 	font-family: "roboto slab", sans-serif;
 	padding: 1em;
@@ -38,7 +31,6 @@ p {
 
 img {
 	max-width: 600px;
-	/* width: 100%; */
 	height: auto;
 }
 
@@ -90,7 +82,7 @@ a:hover {
 
 .button {
 	background-color: #fff;
-	height: 80px;
+	height: 5em;
 	width: 20em;
 	margin: 1em auto .5em;
 }
@@ -121,7 +113,10 @@ a:hover {
 #list {
 	font-family: "roboto slab", serif;
 	font-weight: 600;
-	padding: 20px;
+	padding: 1em;
+	list-style: none;
+/* How to make bullets go away? */
+
 }
 
 #mail {
@@ -156,13 +151,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 740px) {
-
 	img {
-		max-width: 380px;
+		max-width: 480px;
 	}
 
 @media only screen and (max-width: 605px) {
-
 	.wrapper {
 		clear: both;
 		float: none;
@@ -170,9 +163,48 @@ a:hover {
 	}
 }	
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
 	h1 {
 		font-size: 3.5em;
+	}
+	img {
+		max-width: 380px;
 	}	
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	img {
+		max-width: 280px;
+	}
+	p {
+		font-size: .9em;
+	}
+	.subhead {
+		margin-top: 1em;
+		font-size: 1em;
+	}
+	.box {
+		height: 4.2em;
+	}
+	.button {
+		height: 4.2em;
+	}
+	.copy {
+		height: 24em;
+	}
+	#list {
+		font-size: .9em;
+	}
+	#mail a {
+		font-size: 1.5em;
+		font-weight: 500;
+
+	}		
+}
+
+/* Cannot test below 400px, Chrome does not go any smaller */
 
 }
