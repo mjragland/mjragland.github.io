@@ -13,6 +13,7 @@ body {
 
 h1 {
 	font-family: "roboto condensed", sans-serif;
+/* fonts do not load on my computers, rely on default */	
 	color: #AA0000;
 	text-align: center;
 	text-transform: uppercase;
@@ -37,7 +38,6 @@ img {
 a:hover {
     color: #aa0000;
 }
-
 /* This is not working, no change in color on hover */
 
 
@@ -204,10 +204,6 @@ a:hover {
 	#mail a {
 		font-size: 1.5em;
 		font-weight: 500;
-
 	}		
 }
-
-/* Cannot test below 400px, Chrome does not go any smaller */
-
 }
