@@ -155,6 +155,11 @@ a:hover {
 		max-width: 480px;
 	}
 
+@media only screen and (max-width: 640px) {
+	h1 {
+		font-size: 4.5em;
+	}	
+
 @media only screen and (max-width: 605px) {
 	.wrapper {
 		clear: both;
