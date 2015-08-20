@@ -1,0 +1,14 @@
+Q: Which existing websites out there most inspired your web site design thus far?
+A: www.smartandfinal.com, bakkenbaeck.com, www.harrys.com, www.airbnb.com
+	
+Q: Which parts of the design are you most proud of?
+A: It’s a small but important point — the alignment. I can’t tell you how much I struggled with it, and even now I’m finding some problems with it. However I think most of the elements line up nicely.
+	
+Q: What struggles did you encounter in your design process?
+A: I had very little content to present, so I felt like I had to fill the page out graphically. I tried to make up for too much white space by throwing in a light contrasting gray, but I still think the website looks flat and boring. 
+
+Q: Which struggles did you encounter during page development?
+A: Alignment was a big issue until I started to use ems, after which things lined up much more easily. I also found it difficult to get floats and clearfixes to work as I expected them to. On top of that I have a pseudo class which appears not to be working.
+	
+Q: What did you learn from making your project responsive?
+A: The workflow that worked for best was to base my break points on insights gained by resizing the browser window on a desktop. Only after generating media queries based on these break points did I test them on various devices, and then I made adjustments accordingly. This allowed me to make the website responsive without taking any particular device into account.
