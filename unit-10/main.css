@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}	
+
+header	{
+	max-width: 1000px;
+}
+
+h1	{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 4em;
+	padding: 2em 0 0 2%;
+/* Is this in line with best practices -- mixing ems and % */
+	line-height: 1.618 em;
+}
+
+h2	{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	text-align: center;
+	margin: .5em 0 .5em 0;
+}
+
+h3	{
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.618em;
+	font-size: 1.5em;
+	color: #aa6666;
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.618 em;
+	font-weight: 400;
+	padding: 1em 0 3em 2%;
+	color: #999999;
+}
+
+
+p	{
+	font-size: 1.2em;
+	line-height: 1.618em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0 0 2em 0;
+}
+
+
+nav {
+	float: right;
+	padding: 0 1.9em;
+	margin-top: 1.5em;
+/* When wordmark and nav have a margin-top of .5em they appear at different heights */
+}
+
+li	{
+	font-size: 1.2em;
+	display: inline;
+	margin: 0 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	color: #999999;
+}
+/* Why are these links higher than the wordmark? */
+
+ul {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+/* Why does this also change the color of h2s? */	
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.floatleft	{
+	float: left;
+}
+
+.floatright	{
+	float: right;
+}
+
+.floatclear	{
+	clear: both;
+	float: none;
+}
+
+
+.services {
+	padding: 1em;
+	background-color: #000000;
+	color: #ffffff;
+	line-height: 1.618em;
+}
+
+.about {
+	padding: 1em;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+.about li {
+	color: #aa6666;
+}
+
+#wordmark {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #aa0000;
+	float: left;
+	padding: 0 .5em;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+@media only screen and (max-width: 910px) {
+    ul {
+        max-width: 500px;
+        text-align: center;
+        margin: auto;
+    }
+
+    li {
+    	line-height: 2em;
+    }
+
+
+
+}
+
+/* I'm trying to force the nav into two lines, this is not working */ 
+
+@media only screen and (max-width: 640px) {
+    
+nav {
+	clear: both;	
+	float: none;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: block;
+}
+
+
+#wordmark {
+	clear: both;
+	float: none;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	margin-top: -1em;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h4, p {
+	font-size: 1.2em;
+}
+}
+
+@media only screen and (max-width: 480px) {
+	.floatleft {
+		clear: both;
+		float: none;
+	}
+	.floatright {
+		clear: both;
+		float: none;
+	}
+}
+
+
