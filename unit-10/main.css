@@ -53,8 +53,7 @@ p	{
 nav {
 	float: right;
 	padding: 0 1.9em;
-	margin-top: 1.5em;
-/* When wordmark and nav have a margin-top of .5em they appear at different heights */
+	margin-top: 1.3em;
 }
 
 li	{
@@ -65,7 +64,6 @@ li	{
 	font-weight: 300;
 	color: #999999;
 }
-/* Why are these links higher than the wordmark? */
 
 ul {
 	text-align: center;
@@ -74,7 +72,10 @@ ul {
 a {
 	text-decoration: none;
 	color: #999999;
-/* Why does this also change the color of h2s? */	
+}
+
+a:hover {
+    color: #aa0000;
 }
 
 
@@ -139,12 +140,8 @@ a {
     li {
     	line-height: 2em;
     }
-
-
-
 }
 
-/* I'm trying to force the nav into two lines, this is not working */ 
 
 @media only screen and (max-width: 640px) {
     
