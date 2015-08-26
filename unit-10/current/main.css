@@ -4,9 +4,9 @@
 	margin: 0;
 }	
 
-header	{
-	margin-bottom: 2em;
-}
+/* header	{
+	max-width: 1000px;
+} */
 
 h2	{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -112,12 +112,10 @@ a:hover {
 
 
 .floatleft	{
-	margin-left: 5em;
 	float: left;
 }
 
 .floatright	{
-	margin-right: 5em;
 	float: right;
 }
 
@@ -211,9 +209,9 @@ h3, p {
 	float: none;
 	text-align: center;
 }
-/* }
+}
 
-@media only screen and (max-width: 480px) { */
+@media only screen and (max-width: 480px) {
 	.floatleft {
 		clear: both;
 		float: none;
